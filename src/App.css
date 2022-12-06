@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body{
+  background-image:linear-gradient(180deg,rgba(251, 248, 249, 0.6),rgba(251, 248, 249, 0.6)), url(photo.jpg);
+  background-size: cover;
+  background-position: left-bottom;
+  background-repeat: no-repeat;
   min-height: 100vh;
+  margin: 0;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.photo{
+  margin-top: 30px ;
+}
+h1{
+  font-size: 50px;
+  font-family: 'Kalam', cursive;
+}
+.crossed{
+  text-decoration: line-through 2px red;
+}
+ul{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+li{
+  list-style-type: none;
+  padding: 10px;
+  font-size: 18px;
+  border-bottom: 1px solid yellowgreen;
+  background-color: #f2f1b2;
+  width: 30%;
+  font-family: 'Kalam', cursive;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  width: 40%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: 'Kalam', cursive;
+}
+.btn{
+  padding: 10px;
+  border:none;
+  width: 20%;
+  color:white;
+  font-size: 20px;
+  font-family: 'Kalam', cursive;
+}
+.add{
+  background:#a8d8cb;
+  margin-top: 20px;
+}
+.delete{
+  background-color: red;
+  margin-top: 20px;
 }
